@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="heading">LIBRARY</div>
+        <button class="button" id="addBook">Add Book</button>
+        <dialog class="add-book">
+            <form class="book-form">
+                <label for="title">Book Title</label>
+                <input type="text" id="title" name="title">
+                <label for="author">Author</label>
+                <input type="text" id="author" name="author">
+                <label for="pages">Number of Pages</label>
+                <input type="text" id="pages" name="pages">
+                <div class="radio-group-container">
+                    <p>Have you read this book?</p>
+                    <div class="radio-items">
+                        <div class="radio-item">
+                            <label for="read-yes">Yes</label>
+                            <input type= "radio" id="read-yes" name="read" value="true">
+                        </div>
+                        <div class="radio-item">
+                            <label for="read-no">No</label>
+                            <input type="radio" id="read-no" name="read" value='false'>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-section">
+                    <button type="submit" id="submitButton">Add Book</button>
+                    <button type="button" id="cancelButton">Cancel</button>
+                </div>
+                
+
+            </form>
+
+        </dialog>
+    </div>
+    <div class="main"></div>
+</div>
+
+</body>
+</html>
