@@ -13,6 +13,7 @@ body {
     color: var(--border);
     transition: background-color 0.3s, color 0.3s;
     height: 100vh;
+    padding: 0 1rem;
 }
 
 body.dark-mode  {
@@ -96,7 +97,7 @@ body.dark-mode  {
 dialog {
     margin: 2rem;
     position: fixed;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
